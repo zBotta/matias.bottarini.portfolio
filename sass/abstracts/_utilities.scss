@@ -45,7 +45,7 @@
       top: calc(100% + 1.5rem);
       height: 5px;
       width: 3rem;
-      background: $themeClrPrimary;
+      background: #004040;
       left: 50%;
       transform: translateX(-50%);
       border-radius: $commonBorderRadius;
@@ -113,13 +113,13 @@
   }
 
   &--theme {
-    background: $themeClrPrimary;
+    background: #004040;
     color: #fff;
   }
   &--theme-inv {
-    color: $themeClrPrimary;
+    color: #004040;
     background: #fff;
-    border: 2px solid $themeClrPrimary;
+    border: 2px solid #004040;
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px);
   }
